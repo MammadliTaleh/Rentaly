@@ -1,0 +1,231 @@
+.about-card-img img {
+    width: 260px;
+}
+.about-card-img{
+    position: relative;
+}
+.about-media {
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    width: 260px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.about-card {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
+
+.about-card h1 {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.about-card h2 {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
+
+.ab-media {
+    color: #fff;
+    color: #78ca4c;
+    font-size: 25px;
+    margin: 5px;
+}
+@media(max-width:1000px){
+    .about-card-img img {
+        width: 240px;
+    }
+    .about-media{
+        width: 240px ;
+    }
+    .about-card {
+        width: 240px;
+    }
+}
+@media(max-width:900px){
+    .about-card-img img {
+        width: 220px;
+    }
+    .about-media{
+        width: 220px ;
+    }
+    .about-card {
+        width: 220px;
+    }
+    .about-card h1 {
+        font-size: 19px;
+    }
+    .about-card h2 {
+        font-size: 15px;
+    }
+    .ab-media{
+        font-size: 24px;
+    }
+}
+@media(max-width:800px){
+    .about-card-img img {
+        width: 190px;
+    }
+    .about-media{
+        width: 190px ;
+    }
+    .about-card {
+        width: 190px;
+    }
+    .about-card h1 {
+        font-size: 18px;
+    }
+    .about-card h2 {
+        font-size: 14px;
+    }
+    .ab-media{
+        font-size: 23px;
+    }
+}
+@media(max-width:700px){
+    .directors h1{
+        font-size: 42px;
+        color: #fff;
+        padding-bottom: 10px;
+        }
+        .about-card-sc{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    .about-card-img img {
+        width: 220px;
+    }
+    .about-media{
+        width: 220px ;
+    }
+    .about-card {
+        width: 220px;
+    }
+    .about-card h1 {
+        font-size: 20px;
+    }
+    .about-card h2 {
+        font-size: 16px;
+    }
+    .ab-media{
+        font-size: 24px;
+    }
+}
+@media(max-width:600px){
+    .directors h1{
+        font-size: 42px;
+        color: #fff;
+        padding-bottom: 10px;
+        }
+        .about-card-sc{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    .about-card-img img {
+        width: 220px;
+    }
+    .about-media{
+        width: 220px ;
+    }
+    .about-card {
+        width: 220px;
+    }
+    .about-card h1 {
+        font-size: 20px;
+    }
+    .about-card h2 {
+        font-size: 16px;
+    }
+    .ab-media{
+        font-size: 24px;
+    }
+}
+@media(max-width:500px){
+    .directors h1{
+        font-size: 40px;
+        color: #fff;
+        padding-bottom: 10px;
+        }
+        .about-card-sc{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    .about-card-img img {
+        width: 200px;
+    }
+    .about-media{
+        width: 200px ;
+    }
+    .about-card {
+        width: 200px;
+    }
+    .about-card h1 {
+        font-size: 18px;
+    }
+    .about-card h2 {
+        font-size: 15px;
+    }
+    .ab-media{
+        font-size: 22px;
+    }
+}
+.features-section{
+    height: 100vh;
+}
+.features-bottom> .center img{
+    width: 540px;
+}
+.features-bottom{
+    display: flex;
+    align-items: center;
+}
+.cup ,.road, .label, .pin{
+    display: flex;
+}
+@media(max-width:1000px){
+    .features-bottom> .center img{
+        width: 500px;
+    }
+}
+@media(max-width:900px){
+    .features-bottom> .center img{
+        width: 400px;
+    }
+}
+@media(max-width:800px){
+    .features-bottom> .center img{
+        width: 300px;
+    }
+}
+@media(max-width:768px){
+    .features-bottom> .center img{
+        width: 250px;
+    }
+}
+@media(max-width:500px){
+    .features-bottom> .center img{
+        width: 150px;
+    }
+    .features-section{
+        height: 70vh;
+    }
+}
+
+

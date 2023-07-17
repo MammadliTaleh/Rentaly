@@ -1,0 +1,38 @@
+.carpage2{
+    padding-top: 100px;
+    display: flex;
+    overflow-x: hidden;
+    gap: 50px;
+}
+.carspage2-left{
+    padding-top: 80px;
+}
+.carpage2-checkboxes {
+    /* display: block; */
+    border: 2px #727272;
+    width: 280px;
+    padding-left: 70px;
+    /* padding-top: 20px; */
+}
+.checkboxes {
+    padding: 5px;
+}
+.carpage2-slider {
+    width: 280px;
+    padding-left: 70px;
+}
+.carpage2-right {
+    display: flex;
+}
+.kart-ikonlari{
+    display: inline;
+    padding: 5PX;
+    padding-bottom: 10px;
+    border-bottom: #727272;
+}
+/* .insanlar-ikonu{
+    display: flex;
+}
+.canta-ikonu {
+    display: flex;
+} */

@@ -1,0 +1,208 @@
+.homesection5-three-part-section {
+    display: flex;
+    height: 80vh;
+    gap: 20px;
+    padding-left:100px;
+    width: 100%;
+    flex-basis: 100%;
+    padding-bottom: 50px;
+}
+.homesection5-section1{
+ background-image: url('https://res.cloudinary.com/dcum9qzc3/image/upload/v1688983062/1_ve0w2f.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 525px;
+  
+}
+.homesection5-section2{
+ background-image: url('https://res.cloudinary.com/dcum9qzc3/image/upload/v1688983864/2_gfzg6m.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 525px;
+}
+.homesection5-section3{
+ background-image: url('https://res.cloudinary.com/dcum9qzc3/image/upload/v1688983874/3_yiyrji.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 525px;
+}
+.dirnaq-iconu {
+    color: #78ca5c;
+    position: relative;
+    top: 20px;
+    left: 290px;
+    width: 35px;
+    height: 35px;
+}
+.homesection5-h2 {
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+.homesection5-p {
+    color: #ffffffb3;
+    padding-left: 30px;
+    font-weight: 500;
+}
+
+  
+.homesection5-section1 {
+    transition: transform 0.3s ease-in-out;
+}
+.homesection5-section1:hover {
+    transform: scale(1.1);
+}
+.homesection5-section2 {
+    transition: transform 0.3s ease-in-out;
+}
+.homesection5-section2:hover {
+    transform: scale(1.1);
+}
+.homesection5-section3{
+    transition: transform 0.3s ease-in-out;
+}
+.homesection5-section3:hover {
+    transform: scale(1.1);
+}
+@media(max-width:1100px){
+    .homesection5-three-part-section{
+        padding-left: 80px;
+    }
+    .dirnaq-iconu {
+        color: #78ca5c;
+        position: relative;
+        top: 20px;
+        left: 270px;
+        width: 35px;
+        height: 35px;
+    }
+}
+@media(max-width:1000px){
+    .homesection5-three-part-section{
+        padding-left: 80px;
+    }
+    .dirnaq-iconu {
+        color: #78ca5c;
+        position: relative;
+        top: 20px;
+        left: 250px;
+        width: 30px;
+        height: 30px;
+    }
+    .homesection5-h2{
+        font-size: 18px;
+        font-weight: 700;
+        padding-left: 28px;
+    }
+    .homesection5-p {
+        padding-left: 28px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+@media(max-width:900px){
+    .homesection5-three-part-section{
+        padding-left: 50px;
+    }
+    .dirnaq-iconu {
+        position: relative;
+        top: 20px;
+        left: 220px;
+        width: 27px;
+        height: 27px;
+    }
+    .homesection5-h2{
+        font-size: 17px;
+        font-weight: 700;
+        padding-left: 25px;
+    }
+    .homesection5-p {
+        padding-left: 25px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+@media(max-width:800px){
+    .homesection5-three-part-section{
+        padding-left: 40px;
+    }
+    .dirnaq-iconu {
+        position: relative;
+        top: 20px;
+        left: 200px;
+        width: 25px;
+        height: 25px;
+    }
+    .homesection5-h2{
+        font-size: 16px;
+        font-weight: 700;
+        padding-left: 20px;
+    }
+    .homesection5-p {
+        padding-left: 20px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+@media(max-width:700px){
+    .homesection5-three-part-section{
+        padding-left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 270vh;
+    }
+    .dirnaq-iconu {
+        position: relative;
+        top: 20px;
+        left: 290px;
+        width: 35px;
+        height: 35px;
+    }
+    .homesection5-h2{
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 20px;
+    }
+    .homesection5-p {
+        padding-left: 20px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+@media(max-width:500px){
+    .homesection5-three-part-section{
+        padding-left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 270vh;
+    }
+    .dirnaq-iconu {
+        position: relative;
+        top: 20px;
+        left: 290px;
+        width: 35px;
+        height: 35px;
+    }
+    .homesection5-h2{
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 20px;
+    }
+    .homesection5-p {
+        padding-left: 20px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}

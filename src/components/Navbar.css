@@ -1,0 +1,64 @@
+nav.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff important!;
+    padding: 10px 70px;
+}
+.nav-link{
+    font-size: 15px;
+   padding-left: 30px;
+}
+
+.bars-icon{
+    border-bottom: none;
+    border-radius: 5px;
+    background-color: #78CA5C;
+    color: #fff;
+    pointer-events: none;
+}
+.overlay {
+    height: 100vh;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    width: 0;
+    z-index: 3;
+    overflow-x: hidden;
+    transition: width 1s ease-in;
+}
+.aktiv {
+    width: 100%;
+}
+.overlay button {
+    position: absolute;
+    right: 35px;
+    top: 35px;
+    /* background-color: transparent */
+    background-color: #78CA5C;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+}
+.overlay .nav-links {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+ .nav-links a{
+    color: #78CA5C;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 35px;
+    transition: .4s ease;
+ }
+  
+ .nav-links a:hover {
+    color: #3aaf13;
+    transform: translateX(10px);
+ }
+.navbardaki-button{
+    font-size: 14px;
+    width: 105px;
+    height: 35px;
+}

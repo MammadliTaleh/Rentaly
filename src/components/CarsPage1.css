@@ -1,0 +1,14 @@
+.carpage1{
+    background-image: url('https://res.cloudinary.com/dcum9qzc3/image/upload/v1689100957/2_1_fnx1ep.jpg');
+    background-size: cover;
+    height: 50vh;
+    overflow-x: hidden;
+}
+.carpage1-word{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 500;
+    position: relative;
+    top: 45%; 
+    left: 45%;
+}

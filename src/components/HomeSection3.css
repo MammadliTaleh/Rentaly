@@ -1,0 +1,223 @@
+.home-section-3{
+    display: flex;
+    gap: 80px;
+}
+.home-section-3-img {
+    width: 674px;
+    height: 500px;
+}
+
+.home-section-3-right > h3{
+    color: #3f4254;
+    font-size: 42px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+.quality-buttons{
+    background-color: #78ca5c;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+}
+.quality-buttons:hover {
+    box-shadow: 2px 2px 10px 0px rgb(2, 228, 51);
+}
+.home-section-3-right > p{
+    color: #727272;
+    margin-top: 20px;
+    /* width: 450px; */
+}
+@media (max-width:1140px){
+    .home-section-3{
+        gap: 60px;
+    }
+    .home-section-3-img {
+        width: 550px;
+        height: 450px;
+    }
+}
+@media (max-width:1100px){
+    .home-section-3{
+        gap: 60px;
+    }
+    .home-section-3-img {
+        width: 550px;
+        height: 450px;
+    }
+}
+@media (max-width:1000px){
+    .home-section-3{
+        gap: 50px;
+    }
+    .home-section-3-img {
+        width: 500px;
+        height: 420px;
+    }
+    .quality-buttons{
+        width: 80px;
+        height: 40px;
+    }
+    .home-section-3-right > h3{
+        font-size: 36px;
+    }
+    .home-section-3-right > p{
+        font-size: 16px;
+    }
+}
+@media (max-width:900px){
+    .home-section-3{
+        gap: 40px;
+    }
+    .home-section-3-img {
+        width: 450px;
+        height: 400px;
+    }
+    .quality-buttons{
+        font-size: 14px;
+        width: 70px;
+        height: 35px;
+    }
+    .home-section-3-right > h3{
+        font-size: 34px;
+        padding-top: 30px;
+    }
+    .home-section-3-right > p{
+        font-size: 16px;
+    }
+}
+@media (max-width:768px){
+    .home-section-3{
+        gap: 30px;
+    }
+    .home-section-3-img {
+        width: 400px;
+        height: 350px;
+    }
+    .quality-buttons{
+        font-size: 13px;
+        width: 70px;
+        height: 35px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .home-section-3-right > h3{
+        font-size: 32px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    .home-section-3-right > p{
+        font-size: 13px;
+    }
+
+}
+@media (max-width:700px){
+    .home-section-3{
+        gap: 25px;
+    }
+    .home-section-3-img {
+        width: 350px;
+        height: 300px;
+    }
+    .quality-buttons{
+        font-size: 12px;
+        width: 60px;
+        height: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .home-section-3-right > h3{
+        font-size: 28px;
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+    .home-section-3-right > p{
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:650px){
+    .home-section-3{
+        gap: 20px;
+    }
+    .home-section-3-img {
+        width: 330px;
+        height: 280px;
+    }
+    .quality-buttons{
+        font-size: 11px;
+        width: 60px;
+        height: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .home-section-3-right > h3{
+        font-size: 26px;
+        padding-top: 18px;
+        padding-bottom: 0px;
+    }
+    .home-section-3-right > p{
+        font-size: 10px;
+    }
+    
+}
+@media (max-width:580px){
+    .home-section-3{
+        gap: 10px;
+    }
+    .home-section-3-img {
+        width: 300px;
+        height: 280px;
+    }
+    .quality-buttons{
+        font-size: 10px;
+        width: 55px;
+        height: 27.5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+    .home-section-3-right > h3{
+        font-size: 23px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .home-section-3-right > p{
+        font-size: 10px;
+
+    }
+    
+}
+@media (max-width:500px){
+    .home-section-3{
+        gap: 10px;
+    }
+    .home-section-3-img {
+        width: 250px;
+        height: 230px;
+    }
+    .quality-buttons{
+        font-size: 10px;
+        width: 50px;
+        height: 25px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+    .home-section-3-right > h3{
+        font-size: 21px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .home-section-3-right > p{
+        font-size: 8px;
+
+    }
+    
+}

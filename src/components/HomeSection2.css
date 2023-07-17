@@ -1,0 +1,210 @@
+.homesection2{
+    overflow-x: hidden;
+    padding: 0 10px;
+}
+.our-vehicle {
+    padding-left: 38.5%;
+    color: #3F4254;
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.driving-your {
+    color: #3F4254;
+    padding-left: 27.5%;
+    font-size: 20px;
+}
+.swiperin-yerlesdiyi-div {
+    padding: 0 50px;
+}
+
+.card{
+    width: 350px !important;
+}
+.kart-ikonlari{
+    display:flex;
+    color: #3F4254;
+}
+
+.cartin-2ci-hissesi {
+    display: flex;
+}
+.daily-rent {
+    color: #3F4254;
+    font-size: 15px;
+    padding-right: 60px;
+}
+.kirayenin-qiymeti {
+    color: #3F4254;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.cardlardaki-button{
+    padding-top: 20px !important;
+}
+
+.cart-img-top {
+    transition: transform 0.3s ease-in-out !important;
+  }
+
+.cart-img-top:hover {
+    transform: scale(1.1) !important;
+  }
+  /* transition islemir ve h6 lar duzelmelidir */
+  @media(max-width:768px){
+  .our-vehicle{
+    padding-left: 28%;
+    font-size: 38px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    /* display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; */
+  }
+  .driving-your {
+    padding-left: 18%;
+    font-size: 18px;
+
+  }
+    .card{
+        width: 300px !important;
+        gap: 20px;
+    }
+    .kirayenin-qiymeti{
+        font-size: 25px;
+    }
+  }
+  @media(max-width:730px){
+  .our-vehicle{
+    padding-left: 22%;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 10px;
+ 
+  }
+  .driving-your {
+    padding-left: 15%;
+    font-size: 16px;
+
+  }
+    .card{
+        width: 270px !important;
+        gap: 18px;
+    }
+    .daily-rent{
+        font-size: 13px;
+    }
+    .kirayenin-qiymeti{
+        font-size: 22px;
+    }
+  }
+  @media(max-width:660px){
+  .our-vehicle{
+    padding-left: 23%;
+    font-size: 38px;
+    font-weight: 700;
+    padding-bottom: 10px;
+ 
+  }
+  .driving-your {
+    padding-left: 15%;
+    font-size: 16px;
+
+
+  }
+    .card{
+        width: 240px !important;
+        gap: 16px;
+    }
+    .daily-rent{
+        font-size: 13px;
+    }
+    .kirayenin-qiymeti{
+        font-size: 22px;
+    }
+  }
+  @media(max-width:600px){
+  .our-vehicle{
+    padding-left: 21%;
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 10px;
+ 
+  }
+  .driving-your {
+    padding-left: 13%;
+    font-size: 15px;
+
+
+  }
+    .card{
+        width: 220px !important;
+        gap: 10px;
+    }
+    .daily-rent{
+        font-size: 13px;
+    }
+    .kirayenin-qiymeti{
+        font-size: 20px;
+    }
+  }
+ 
+  @media(max-width:560px){
+  .our-vehicle{
+    padding-left: 19%;
+    font-size: 34px;
+    font-weight: 600;
+    padding-bottom: 10px;
+ 
+  }
+  .driving-your {
+    padding-left: 12%;
+    font-size: 15px;
+
+
+  }
+    .card{
+        width: 200px !important;
+        gap: 8px;
+    }
+    .daily-rent{
+        font-size: 12px;
+    }
+    .kirayenin-qiymeti{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+  }
+ 
+  @media(max-width:500px){
+  .our-vehicle{
+    padding-left: 19%;
+    font-size: 34px;
+    font-weight: 600;
+    padding-bottom: 10px;
+ 
+  }
+  .driving-your {
+    padding-left: 11%;
+    font-size: 14px;
+
+
+  }
+    .card{
+        width: 180px !important;
+        gap: 8px;
+    }
+    .daily-rent{
+        font-size: 10px;
+    }
+    .kirayenin-qiymeti{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .kart-ikonlari{
+        font-size: 14px;
+    }
+  }
+ 

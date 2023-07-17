@@ -1,0 +1,206 @@
+.homesection1 {
+    background-image: url('https://res.cloudinary.com/dcum9qzc3/image/upload/v1688149349/6_jh7kon.jpg');
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin-bottom: 40px;
+    padding-left:100px;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.explore-the-world-h1 {
+    color: #fff;
+    padding-top: 50px;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.explore-the-world-p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+    padding-bottom: 25px;
+    font-weight: 500;
+}
+.homesection-icons {
+    display: flex;
+}
+.kubok-iconu {
+    background-color: #78ca5c;
+    color: #fff;
+    width:50px;
+    height: 50px;
+}
+.yol-iconu {
+    background-color: #78ca5c;
+    color: #fff;
+    width:50px;
+    height: 50px;
+
+}
+.first-class {
+    color: #78ca5c;
+    font-size: 17px;
+    font-weight: 600;
+    /* padding-left: 15px; */
+}
+.homesection-icons1-1 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.road-asistance {
+    color: #78ca5c;
+    font-size: 17px;
+    font-weight: 600;
+    /* padding-left: 15px; */
+}
+.homesection-icons1-2 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+@media (max-width:768px){
+    .homesection1 {
+        padding-left: 50px;
+    }
+    .explore-the-world-h1 {
+       
+        padding-top: 50px;
+        font-size: 42px;
+        line-height: 42px; 
+    }
+    .explore-the-world-p {
+        
+        font-size: 14px;
+        line-height: 15px;   
+    }
+    .kubok-iconu , .yol-iconu {
+        width: 40px;
+        height: 40px;
+    }
+    .first-class {
+        font-size: 16px;
+    }
+    .homesection-icons1-1 {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 8px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .road-asistance {
+        color: #78ca5c;
+        font-size: 16px;
+        font-weight: 600;
+        /* padding-left: 15px; */
+    }
+    .homesection-icons1-2 {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 8px;
+    }
+    .homesection-icons{
+        width: 500px;
+    }
+}
+@media (max-width:570px){
+    .homesection1 {
+        padding-left: 40px;
+    }
+    .explore-the-world-h1 {
+       
+        padding-top: 50px;
+        font-size: 36px;
+        line-height: 40px; 
+    }
+    .explore-the-world-p {
+        
+        font-size: 14px;
+        line-height: 15px;
+        font-weight: 400;   
+    }
+    .kubok-iconu , .yol-iconu {
+        width: 36px;
+        height: 36px;
+    }
+    .first-class {
+        font-size: 15px;
+    }
+    .homesection-icons1-1 {
+        font-size: 13px;
+        font-weight: 500;
+        padding-left: 8px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .road-asistance {
+        font-size: 15px;
+        font-weight: 500;
+        /* padding-left: 15px; */
+    }
+    .homesection-icons1-2 {
+        font-size: 13px;
+        font-weight: 500;
+        padding-left: 8px;
+    }
+    .homesection-icons{
+        width: 500px;
+    }
+}
+@media (max-width:500px){
+    .homesection1 {
+        padding-left: 30px;
+        height: 80vh;
+    }
+    .explore-the-world-h1 {
+       
+        padding-top: 50px;
+        font-size: 34px;
+        line-height: 40px; 
+    }
+    .explore-the-world-p {
+        
+        font-size: 14px;
+        line-height: 15px;
+        font-weight: 400;   
+    }
+    .kubok-iconu , .yol-iconu {
+        width: 36px;
+        height: 36px;
+    }
+    .first-class {
+        font-size: 15px;
+    }
+    .homesection-icons1-1 {
+        font-size: 13px;
+        font-weight: 500;
+        padding-left: 8px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .road-asistance {
+        font-size: 15px;
+        font-weight: 500;
+        /* padding-left: 15px; */
+    }
+    .homesection-icons1-2 {
+        font-size: 13px;
+        font-weight: 500;
+        padding-left: 8px;
+    }
+    .homesection-icons{
+        width: 500px;
+        /* display: flex;
+        flex-direction: column; */
+    }
+}

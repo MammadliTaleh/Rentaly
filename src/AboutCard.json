@@ -1,0 +1,22 @@
+[
+    {
+        "img":"https://res.cloudinary.com/dcum9qzc3/image/upload/v1689238248/ab2_p0hhfq.jpg",
+        "name":"Fynley Wilkinson",
+        "info":"Chief Creative Officer"
+    },
+    {
+        "img":"https://res.cloudinary.com/dcum9qzc3/image/upload/v1689238496/ab3_wxgjk6.jpg",
+        "name":"Peter Welsh",
+        "info":"Chief Technology Officer"
+    },{
+        "img":"https://res.cloudinary.com/dcum9qzc3/image/upload/v1689238241/ab4_j1bjq3.jpg",
+        "name":"John Shepard",
+        "info":"Chief Executive Officer"
+    },
+    {
+        "img":"https://res.cloudinary.com/dcum9qzc3/image/upload/v1689238245/ab5_sokela.jpg",
+        "name":"Robyn Peel",
+        "info":"Director of Finance"
+    }
+
+]

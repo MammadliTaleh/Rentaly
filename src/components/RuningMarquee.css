@@ -1,0 +1,30 @@
+.running-marquee{
+  overflow-x: hidden;
+}
+
+
+@keyframes running-text-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .running-text-container {
+    overflow-x: hidden;
+    height: 100px;
+    background-color: #181818;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .running-text {
+    overflow-x: hidden;
+    animation: running-text-animation 15s linear infinite;
+    white-space: nowrap;
+    color: #78ca5c;
+    font-size: 65px;
+  }
+  
